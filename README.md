@@ -1,1 +1,1 @@
-# ksh: A Social media clone
+# KSH: A Social media clone
