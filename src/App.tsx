@@ -4,6 +4,7 @@ import Login from './pages/Login'
 import Error from './pages/Error'
 import { Main } from './pages/main'
 import Navbar from './components/Navbar'
+import { CreatePost } from './pages/post/CreatePost'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
             <Routes>
               <Route path='/' element={<Main />} />
               <Route path='/login' element={<Login />} />
+              <Route path='/createPost' element={<CreatePost/>} />
               <Route path='*' element={<Error />} />
             </Routes>
           </Router>
